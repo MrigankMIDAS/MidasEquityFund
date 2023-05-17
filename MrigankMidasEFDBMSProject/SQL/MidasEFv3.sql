@@ -199,17 +199,6 @@ birth_day
 sex
 bank_IFSC_code
 bank_account_no
-	
-1
-mrigankmarch2002@gmail.com
-2147483647
-system
-Mrigank
-Gupta
-2002-03-13
-m
-BKID0010
-659921873
 */
 INSERT INTO client VALUES
 (2,'arthurdent1990@gmail.com',NULL,'terra01','Arthur','Dent','1990-04-29','M','BKID0012',12435632),
@@ -231,7 +220,7 @@ INSERT INTO client VALUES
 ALTER TABLE employee
 MODIFY phno INT(11);
 INSERT INTO employee VALUES
-(1,'mrigankmarch2002@gmail',9599218733,'system','Mrigank','Gupta','2002-03-13','M',100000,NULL);
+(1,'mrigankares2002@gmail',9500000033,'system','Mrigank','Gupta','2001-05-17','M',100000,NULL);
 
 INSERT INTO employee (e_id, email, phno, password, first_name, last_name, birth_day, sex, salary, super_id) VALUES
 (2, 'john.doe@example.com', 1234567890, 'password123', 'John', 'Doe', '1990-01-01', 'M', 50000, 1),
