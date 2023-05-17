@@ -1,40 +1,5 @@
 --15/04/2023, Saturday
-/*
-Atlas Equity Fund
-Apollo Investments
-Phoenix Capital Management
-Centaur Wealth Management
-Helios Fund
-Triton Capital Advisors
-Janus Capital Group
-Thor Equities X
-Diana Investments X
-Vulcan Capital Management
 
-Apollo [a] is one of the Olympian deities in classical Greek and Roman religion and 
-Greek and Roman mythology. The national divinity of the Greeks, Apollo has been 
-recognized as a god of archery, music and dance, truth and prophecy, healing and 
-diseases, the Sun and light, poetry, and more.
-God of beginnings and transitions
-Janus was the god of beginnings and transitions in Roman mythology, and presided over
-passages, doors, gates and endings, as well as in transitional periods such as from war
-to peace.
-Vulcan is the god of fire including the fire of volcanoes, deserts, metalworking and 
-the forge in ancient Roman religion and myth.
-In ancient Greek religion and mythology, Helios is the god and personification of the
-Sun. His name is also Latinized as Helius, and he is often given the ...
-
-Odyssey Capital Management
-Hercules Investments
-Achilles Equity Fund
-Spartan Wealth Management
-Valiant Capital Group
-Athena Investments
-Gladiator Fund
-Phoenix Wealth Advisors
-Argonaut Equity
-Theseus Capital Management
-*/
 CREATE DATABASE midas_EF;
 USE midas_EF;
 CREATE TABLE employee (
@@ -142,8 +107,8 @@ ALTER TABLE client
 MODIFY COLUMN  phno INT;
 DELETE FROM client;
 INSERT INTO client VALUES
-(1,'mrigankmarch2002@gmail.com',9599218733,'system','Mrigank','Gupta',
-'2002-03-13','m','BKID0010','659921873');
+(1,'mrigankares2002@gmail.com',9500000033,'system','Mrigank','Gupta',
+'2001-05-17','m','BKID0010','659921873');
 
 
 --creating TRIGGERS
